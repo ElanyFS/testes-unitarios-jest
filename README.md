@@ -18,3 +18,39 @@ Rodando o comando abaixo:
 
 ```bash
 npx jest --coverage
+```
+
+| Métrica     | Cobertura |
+|-------------|-----------|
+| Statements  | 100% ✅   |
+| Branches    | 100% ✅   |
+| Functions   | 100% ✅   |
+| Lines       | 100% ✅   |
+
+## 🚀 Como Executar o Projeto
+### Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/testes-unitarios-jest.git
+cd testes-unitarios-jest
+```
+
+Instale as dependências:
+```bash
+npm install
+```
+
+Execute os testes:
+```bash
+npm test
+```
+
+(Opcional) Execute com relatório de cobertura:
+
+```bash
+npm test -- --coverage
+```
+
+## 🛠️ Tecnologias Utilizadas
+* Node.js
+* Jest
+* JavaScript (ES6+)
